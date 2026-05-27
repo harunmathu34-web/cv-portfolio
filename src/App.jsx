@@ -60,6 +60,28 @@ export default function App() {
         </ul>
       </section>
 
+      {/* CV DOWNLOAD */}
+      <section style={{ marginBottom: "30px" }}>
+        <h2>Curriculum Vitae</h2>
+
+        <a
+          href="https://docs.google.com/document/d/1MYrwgeFo6GWUoJ0HtEdMAEXSwXHxKFaa/edit?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            display: "inline-block",
+            padding: "12px 20px",
+            backgroundColor: "black",
+            color: "white",
+            textDecoration: "none",
+            borderRadius: "8px",
+            marginTop: "10px",
+          }}
+        >
+          Download My CV
+        </a>
+      </section>
+
       {/* CONTACT */}
       <section style={{ marginBottom: "30px" }}>
         <h2>Contact</h2>
